@@ -50,7 +50,7 @@ const ViewItemScreen = ({navigation, route}) => {
       <Text>Date: {new Date(date).toLocaleDateString()}</Text>
       <Text>Rink No: {currentEntry.rinkNo}</Text>
 
-      {/*Together */}
+      
       <Text>Team 1: {currentEntry.T1}</Text>
       <Text>Team 2: {currentEntry.T2}</Text>
 
