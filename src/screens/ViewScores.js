@@ -100,9 +100,7 @@ const styles = StyleSheet.create({
     marginTop: 5,
     padding: 5,
     borderBottomWidth: 1,
-    /*flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center'*/
+   
    
   },
   dateContainer: {
