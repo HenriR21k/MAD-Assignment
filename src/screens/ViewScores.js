@@ -61,21 +61,13 @@ const ViewScores = ({ navigation, route }) => {
 
     <View>
       
-      {/*<Button title="Edit a Score" onPress={() => navigation.navigate('EditScore', {Game: item.id})}></Button>
-      <Button title="Delete a Score" onPress={() => navigation.navigate('DeleteScore', {Game: item.id})}></Button>*/}
-
-      {/*<Text>The Total Score for Team 1 is: {total1}</Text>
-      <Text>The Total Score for Team 2 is: {total2}</Text>*/}
-
-      {/*<Table borderStyle={{ borderWidth: 2, borderColor: '#000000' }}><Rows data={compInfo} textStyle={styles.text} /></Table>*/}
 
       <FlatList
         data={item.score}
         keyExtractor={(e) => e.End.toString()}
         renderItem={({item}) => {
 
-          //Create empty array,
-          //increment array to length of array +1
+        
 
           let tableData = [
             [`Score: ${item.Team1Score}`, `End: ${item.End}`, `Score: ${item.Team2Score}`]]
@@ -84,13 +76,6 @@ const ViewScores = ({ navigation, route }) => {
           
           <View>
             
-              {/*
-              <View style={styles.itemContainer}>
-                <Text>End: {item.End} </Text>
-                <Text>Team 1 Score:: {item.Team1Score} </Text>
-                <Text>Team 2 Score: {item.Team2Score} </Text>
-              </View>
-              */}
               {
               <Table style={styles.borderStyling}>
                 <View style={styles.itemContainer}>
