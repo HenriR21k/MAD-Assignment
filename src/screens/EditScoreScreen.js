@@ -55,7 +55,7 @@ const EditScoreScreen = ({navigation, route}) => {
     return (
   <View>
     
-          <Text style={styles.textLabel}>Enter Team 1 End:</Text>
+          <Text style={styles.textLabel}>Enter the End Number you want to edit:</Text>
           <TextInput style={styles.TextInput} multiline
             placeholder=""
             onChangeText={(text) => {setEndID(text); }}

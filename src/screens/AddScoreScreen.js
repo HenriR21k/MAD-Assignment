@@ -38,13 +38,13 @@ const AddScoreScreen = ({navigation, route}) => {
 return (
   <View>
 
-          <Text style={styles.textLabel}>Enter Team 1 Score:</Text>
+          <Text style={styles.textLabel}>Enter Team 1 Score: 1-9</Text>
           <TextInput style={styles.TextInput} multiline
             placeholder=""
             onChangeText={(text) => {setNewTeam1Score(text); }}
           />
 
-          <Text style={styles.textLabel}>Enter Team 2 Score:</Text>
+          <Text style={styles.textLabel}>Enter Team 2 Score: 1-9</Text>
           <TextInput style={styles.TextInput} multiline
             placeholder=""
             onChangeText={(text) => {setNewTeam2Score(text); }}
